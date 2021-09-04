@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    width: 600px;
+    height: 350px;
+    background-color: red;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 600px;
+    height: 350px;
+}
+#imglist{
+    display: flex;
+    width: 3600px;
+    height: 350px;
+    list-style: none;
+    position: relative;
+}
+button{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 155px;
+}
+button:nth-child(2){
+    right: 0px;
+}
+#nav{
+    width: 250px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;        }
+a{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border: gray 2px solid;
+    display: inline-block;
+    position: relative;
+}
+a:hover{
+    background-color: blue;
+}
+.cls{
+    background-color: orange;
+    transform: scale(1.5);
+}
